@@ -12,6 +12,10 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessageComponent } from './message/message.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
+import { CountdownLocalVarParentComponent } from './countdown-local-var-parent/countdown-local-var-parent.component';
+import { VoteTakerComponent } from './vote-taker/vote-taker.component';
+import { VoterComponent } from './voter/voter.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,10 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroDetailComponent,
     MessageComponent,
     HeroSearchComponent,
+    CountdownTimerComponent,
+    CountdownLocalVarParentComponent,
+    VoteTakerComponent,
+    VoterComponent,
   ],
   imports: [
     BrowserModule,
